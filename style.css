@@ -1,0 +1,94 @@
+
+
+
+/* Gus is a Table */
+.meme-generator {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: inline-block;
+  width: 45%;
+  padding: 5px;
+  text-align: center;
+
+}
+
+.meme-generator img{
+  height: 430px;
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.meme-generator .generate-meme-btn{
+  padding: 8px, 20px;
+  border: none;
+  border-left: 4px solid #222;
+  border-right: 4px solid #222;
+  margin: 24px 0;
+  font-size: 20px;
+  color: #f64d4d;
+  background: #fff;
+  cursor: pointer;
+  transition: all 400ms ease;
+}
+
+.meme-generator .generate-meme-btn:hover{
+  padding: 8px 36px;
+  border-left: 8px solid #222;
+  border-right: 8px solid #222;
+  letter-spacing: 3px;
+}
+
+.meme-generator .meme-author{
+  margin: 8px;
+  float: left;
+  width: 50%;
+  padding: 5px;
+  text-align: center;
+}
+
+
+/* Vote 2 */
+
+.meme-generator-2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: inline-block;
+  width: 45%;
+  padding: 5px;
+  text-align: center;
+
+}
+
+.meme-generator-2 img{
+  height: 430px;
+  float: right;
+  width: 50%;
+  padding: 5px;
+}
+
+.meme-generator-2 .generate-meme-btn-2{
+  padding: 8px, 20px;
+  border: none;
+  border-left: 4px solid #222;
+  border-right: 4px solid #222;
+  margin: 24px 0;
+  font-size: 20px;
+  color: #f64d4d;
+  background: #fff;
+  cursor: pointer;
+  transition: all 400ms ease;
+}
+
+.meme-generator-2 .generate-meme-btn-2:hover{
+  padding: 8px 36px;
+  border-left: 8px solid #222;
+  border-right: 8px solid #222;
+  letter-spacing: 3px;
+}
+
+.meme-generator-2 .meme-author-2{
+  margin: 8px;
+  float: right;
+  width: 50%;
+  padding: 5px;
+  text-align: center;
+}
