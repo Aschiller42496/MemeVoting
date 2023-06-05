@@ -1,10 +1,18 @@
 .header{
+  
+  position: fixed;
+  align-items: center;
   text-align: center;
+  background-size: auto;
+  background-position: center top;
+  background-color: #e1d2d2;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 75px;
   color: #ff0000;
 }
 .meme-table {
   display: flex;
+  padding-top: 60px;
 
 }
 
@@ -25,7 +33,7 @@
 
 .meme-generator img{
   height: auto;
-  width: 50%;
+  width: 30%;
   padding: 5px;
 }
 
@@ -63,7 +71,7 @@
 
 .meme-generator-2 img{
   height: auto;
-  width: 50%;
+  width: 30%;
   padding: 5px;
 }
 
