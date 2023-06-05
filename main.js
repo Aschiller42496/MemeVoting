@@ -36,9 +36,9 @@ async function generateMeme2 (){
     updateDetails2(data2.url, data2.title, data2.author);
 }
 
-generateMemeBtn.addEventListener("click", generateMeme);
+generateMemeBtn.addEventListener("click", generateMeme2);
 
-generateMemeBtn2.addEventListener("click", generateMeme2);
+generateMemeBtn2.addEventListener("click", generateMeme);
 
 generateMeme();
 generateMeme2();
