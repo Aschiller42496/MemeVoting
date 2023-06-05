@@ -1,4 +1,7 @@
+.meme-table {
+  display: flex;
 
+}
 
 
 /* Gus is a Table */
@@ -10,10 +13,14 @@
   text-align: center;
 
 }
+.meme-generator .meme-title{
+  color: #fff;
+  background-color: #222;
+  background-size: cover;
+}
 
 .meme-generator img{
   height: 430px;
-  float: left;
   width: 50%;
   padding: 5px;
 }
@@ -40,8 +47,6 @@
 
 .meme-generator .meme-author{
   margin: 8px;
-  float: left;
-  width: 50%;
   padding: 5px;
   text-align: center;
 }
@@ -58,9 +63,14 @@
 
 }
 
+.meme-generator-2 .meme-title-2{
+  color: #fff;
+  background-color: #222;
+  background-size: cover;
+}
+
 .meme-generator-2 img{
   height: 430px;
-  float: right;
   width: 50%;
   padding: 5px;
 }
@@ -87,8 +97,6 @@
 
 .meme-generator-2 .meme-author-2{
   margin: 8px;
-  float: right;
-  width: 50%;
   padding: 5px;
   text-align: center;
 }
